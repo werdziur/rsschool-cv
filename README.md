@@ -1,1 +1,1 @@
-[CV.markdown] (https://werdziur.github.io/rsschool-cv/)
+[CV.markdown](https://werdziur.github.io/rsschool-cv/)
