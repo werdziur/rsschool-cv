@@ -3,9 +3,13 @@
 ## Contact details
 
 **Phone:** +00 000 000 000
+
 **E-mail:** wer.dziura@gmail.com
+
 **LinkedIN:** https://www.linkedin.com/in/weronika-dziura/
+
 **GitHub:** https://github.com/werdziur
+
 **Location:** Cracow, Poland
 ## About me
 
@@ -13,22 +17,23 @@ I am a reliable and committed professional with 5 years of practical experience 
 I am characterized by a high work ethic and analytical approach to the assigned tasks. I feel natural in being accountable for the delegated tasks, and roles. 
 One of my strongest competencies is pursuing for self-development. 
 
-I have started learning programming at the beggining of 2022 and it has become my main goal and desire for the future. I feel great while coding, it makes me happy and fullfill. I am willing to use the opportunities given by the company to develop my skills and improve my daily work, then. I successfully establish contacts with other people, both on business and private level. 
+**I have started learning programming at the beggining of 2022 and it has become my main goal and desire for the future. I feel great while coding, it makes me happy and fullfill. Currently, I am taking part in Frontend course in RSSchool as well as JavaScript course on Teachable** 
+I am willing to use the opportunities given by the company to develop my skills and improve my daily work, then. I successfully establish contacts with other people, both on business and private level. 
 After hours, I am interested in fitness, dietetics, crocheting and reading books.
 
 ## Education
 
-2022 RSSchool - FrontEnd course
+**2022** - RSSchool - FrontEnd course
 
-2022 - HTML, CSS, Responsive Web Design and JavaScript course on Udemy/Teachable/LinkedIn.
+**2022** - HTML, CSS, Responsive Web Design and JavaScript course on Udemy/Teachable/LinkedIn.
 
-2020 - *Discover IT Program* aiming to get OPS workers familiar with the software development principles, Agile approach, Scrum framework, and testing.
+**2020** - *Discover IT Program* aiming to get OPS workers familiar with the software development principles, Agile approach, Scrum framework, and testing.
 
-2019 - HTML, CSS 2-days stationary course
+**2019** - HTML, CSS 2-days stationary course
 
-2016 - 2018 Jagiellonian University, Cracow, Faculty of Economics - Corporate Finance & Accounting (Master’s Degree).
+**2016** - 2018 Jagiellonian University, Cracow, Faculty of Economics - Corporate Finance & Accounting (Master’s Degree).
 
-2013 - 2016 Jagiellonian University, Cracow, Faculty of Economics - Finance, Banking, Insurances (Bachelor’s degree).
+**2013** - 2016 Jagiellonian University, Cracow, Faculty of Economics - Finance, Banking, Insurances (Bachelor’s degree).
 
 
 
