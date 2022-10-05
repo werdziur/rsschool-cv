@@ -17,7 +17,7 @@ I am a reliable and committed professional with 5 years of practical experience 
 I am characterized by a high work ethic and analytical approach to the assigned tasks. I feel natural in being accountable for the delegated tasks, and roles. 
 One of my strongest competencies is pursuing for self-development. 
 
-**I have started learning programming at the beggining of 2022 and it has become my main goal and desire for the future. I feel great while coding, it makes me happy and fullfill. Currently, I am taking part in Frontend course in RSSchool as well as JavaScript course on Teachable** 
+**I have started learning programming at the beginning of 2022 and it has become my main goal and desire for the future. I feel great while coding, it makes me happy and fullfill. Currently, I am taking part in Frontend course in RSSchool as well as JavaScript course on Teachable.** 
 I am willing to use the opportunities given by the company to develop my skills and improve my daily work, then. I successfully establish contacts with other people, both on business and private level. 
 After hours, I am interested in fitness, dietetics, crocheting and reading books.
 
