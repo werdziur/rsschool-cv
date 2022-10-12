@@ -10,14 +10,17 @@ body {
 }
 
 .main-container {
-	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+	background-color: #e4e4e1;
+	background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%),
+		linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.6) 100%);
+	background-blend-mode: normal, multiply;
 	margin: 100px auto;
 	width: 1000px;
 	height: 1400px;
 	-webkit-box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
 	-moz-box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
 	box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .header-img {
@@ -27,8 +30,8 @@ body {
 	border-radius: 10px;
 	background-size: cover;
 	background-position: center;
-    border-radius: 10px 10px 0 0;
-    overflow: hidden;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
 }
 
 .header-text {
@@ -56,27 +59,24 @@ body {
 	top: 10px;
 	right: 50px;
 	z-index: 10;
-    border:2px solid #333;
+	border: 2px solid #333;
 }
 
-nav{
-height: 50px;
-text-align: center;
-line-height: 50px;
+nav {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
-li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    
+.nav-links a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
 }
 
-ul li {
-    display: inline-block;
-    padding: 0 40px;
-    font-weight: bold;
-    
+.nav-links li {
+	display: inline-block;
+	padding: 0 40px;
+	font-weight: bold;
 }
-
-
