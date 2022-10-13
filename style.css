@@ -7,9 +7,11 @@
 body {
 	background-color: #333;
 	font-family: 'Roboto', sans-serif;
+	
 }
 
 .main-container {
+	position: relative;
 	background-color: #e4e4e1;
 	background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%),
 		linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.6) 100%);
@@ -21,7 +23,10 @@ body {
 	-moz-box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
 	box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
 	border-radius: 10px;
+	overflow: hidden;
 }
+
+/*header image*/
 
 .header-img {
 	position: relative;
@@ -37,11 +42,16 @@ body {
 .header-text {
 	position: absolute;
 	bottom: 10px;
-	left: 10px;
-	font-size: 70px;
+	left: 25px;
+	font-size: 60px;
 	font-weight: bold;
 	color: white;
 	z-index: 10;
+}
+
+.job-title {
+	font-size: 30px;
+	padding: 10px;
 }
 
 .header-bg {
@@ -62,6 +72,8 @@ body {
 	border: 2px solid #333;
 }
 
+/*navigation*/
+
 nav {
 	height: 50px;
 	text-align: center;
@@ -69,14 +81,63 @@ nav {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
+
 .nav-links a {
 	text-decoration: none;
-	color: black;
+	color: #333;
 	text-transform: uppercase;
+	transition: color 0.3s;
+}
+
+.nav-links a:hover {
+	cursor: pointer;
+	color: rgba(255, 255, 0, 0.568);
 }
 
 .nav-links li {
 	display: inline-block;
 	padding: 0 40px;
 	font-weight: bold;
+}
+
+/*aside section*/
+
+aside {
+	position: absolute;
+	right: 0;
+	height: 1060px;
+	width: 300px;
+	background-color: white;
+	background-color: #e6e6ae96;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+main {
+	position: absolute;
+	left: 0;
+	height: 1060px;
+	width: 700px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 70px;
+	width: 1000px;
+	border: 10px;
+}
+
+main section {
+	padding: 20px;
+}
+
+aside section {
+	padding: 30px;
 }
