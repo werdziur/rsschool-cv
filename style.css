@@ -7,7 +7,6 @@
 body {
 	background-color: #333;
 	font-family: 'Roboto', sans-serif;
-	
 }
 
 .main-container {
@@ -81,7 +80,6 @@ nav {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 .nav-links a {
 	text-decoration: none;
 	color: #333;
@@ -107,16 +105,18 @@ aside {
 	right: 0;
 	height: 1060px;
 	width: 300px;
-	background-color: white;
 	background-color: #e6e6ae96;
 }
 
-h2 {
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 18px;
-	padding: 10px 0;
+aside section {
+	padding: 10px 20px 0 20px;
+	line-height: 25px;
 }
+
+
+
+
+/*main section*/
 
 main {
 	position: absolute;
@@ -125,6 +125,58 @@ main {
 	width: 700px;
 }
 
+main section {
+	padding: 10px 20px 0 20px;
+	line-height: 25px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 0;
+	display: inline-block;
+}
+
+
+.education li {
+	list-style: none;
+	line-height: 25px;
+}
+
+.education span {
+	font-weight: bold;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	
+}
+
+.code-example code {
+	display: block;
+}
+
+.projects a {
+	text-decoration: none;
+	display: block;
+	color: black;
+	font-weight: bold;
+}
+
+.projects a:hover {
+	cursor: pointer;
+	color: #4d4d0c96;
+}
+
+.interest-list li {
+	margin-left: 10px;
+}
+
+
+/*footer*/
+
 footer {
 	position: absolute;
 	bottom: 0;
@@ -132,12 +184,4 @@ footer {
 	height: 70px;
 	width: 1000px;
 	border: 10px;
-}
-
-main section {
-	padding: 20px;
-}
-
-aside section {
-	padding: 30px;
 }
