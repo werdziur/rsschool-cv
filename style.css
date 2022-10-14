@@ -42,7 +42,7 @@ body {
 	position: absolute;
 	bottom: 10px;
 	left: 25px;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: bold;
 	color: white;
 	z-index: 10;
@@ -124,6 +124,7 @@ aside section
 	line-height: 30px;
 }
 
+
 /*main section*/
 
 main {
@@ -143,6 +144,7 @@ h2 {
 	font-size: 18px;
 	padding: 20px 0;
 	display: inline-block;
+	text-decoration: underline;
 }
 
 

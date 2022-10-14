@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weronika Dziura CV</title>
+    <title>RS School CV HTML</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,10 +15,10 @@
 </head>
 
 <body>
-    <section class="main-container">
+    <div class="main-container">
         <header>
             <div class="header-img">
-                <img class="image" src="img/IMG (7).jpg" alt="">
+                <img class="image" src="img/myphoto.jpg" alt="Business photography. Women in a blue blazer">
                 <div class="header-bg">
                     <div class="header-text">
                         <h1>Weronika Dziura</h1>
@@ -29,15 +29,15 @@
         </header>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">About me</a></li>
-                <li><a href="#">contact</a></li>
-                <li><a href="#">education</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Languagues</a></li>
+                <li><a href="#aboutme-hook">About me</a></li>
+                <li><a href="#contact-hook">contact</a></li>
+                <li><a href="#education-hook">education</a></li>
+                <li><a href="#skills-hook">Skills</a></li>
+                <li><a href="#languague-hook">Languagues</a></li>
             </ul>
         </nav>
         <main>
-            <section class="about-me">
+            <section class="about-me" id="aboutme-hook">
                 <img class="icon" src="img/user-tie-solid.svg" alt="">
                 <h2>About me</h2>
                 <p>I have started learning programming at the beginning of 2022 and it has become my main goal and
@@ -53,7 +53,7 @@
                     interested
                     in programming, fitness, dietetics, crocheting and reading books.</p>
             </section>
-            <section class="education">
+            <section class="education" id="education-hook">
                 <img class="icon" src="img/user-graduate-solid.svg" alt="">
                 <h2>Education</h2>
                 <ul>
@@ -84,9 +84,10 @@
                 <img class="icon" src="img/user-graduate-solid.svg" alt="">
                 <h2>projects</h2>
                 <p>CV created in HTML, CSS</p>
-                <a href="https://werdziur.github.io/rsschool-cv/cv">CV project</a>
+                <a href="https://werdziur.github.io/rsschool-cv/cv" target="_blank">CV project</a>
             </section>
             <section class="interest">
+                <img class="icon" src="img/earth-europe-solid.svg" alt="">
                 <h2>interest</h2>
                 <ul class="interest-list">
                     <li>Programming :)</li>
@@ -98,23 +99,23 @@
             </section>
         </main>
         <aside>
-            <section class="contact">
+            <section class="contact" id="contact-hook">
                 <h2>contact</h2>
                 <div>
-                    <a href=""><img class="icon" src="img/envelope-solid.svg" alt=""></a>
+                    <img class="icon" src="img/envelope-solid.svg" alt="">
                     <p>wer.dziura@gmail.com</p>
                 </div>
                 <div>
-                    <a href=""><img class="icon" src="img/square-phone-solid.svg" alt=""></a>
+                    <img class="icon" src="img/square-phone-solid.svg" alt="">
                     <p>+ 00 000-000-000</p>
                 </div>
                 <div>
-                    <a href="www.linkedin.com/in/weronika-dziura"><img class="icon" src="img/linkedin-in.svg"
+                    <a href="www.linkedin.com/weronika-dziura" target="_blank"><img class="icon" src="img/linkedin-in.svg"
                             alt=""></a>
                     <p>LinkedIn</p>
                 </div>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills-hook">
                 <h2>skills</h2>
                 <ul class="skills-list">
                     <li>HTML, CSS</li>
@@ -129,7 +130,7 @@
                     <li>Knowledge of MS Office Suite</li>
                 </ul>
             </section>
-            <section class="languague">
+            <section class="languague" id="languague-hook">
                 <h2>languagues</h2>
                 <ul class="languagues-list">
                     <li>English - C1 - both spoken and written. I actively use English on a daily basis in my current
@@ -142,11 +143,11 @@
             </section>
         </aside>
         <footer>
-            <a href="https://github.com/werdziur"><img class="icon-2" src="img/github.svg" alt=""></a>
+            <a href="https://github.com/werdziur" target="_blank"><img class="icon-2" src="img/github.svg" alt="github icon"></a>
             <p>&copy; October 2022 Weronika Dziura</p>
-            <a href=""><img class="rs-icon" src="img/A521EF15FAB64E289F97A3A112ACCA52.svg" alt=""></a>
+            <a href="https://rs.school/" target="_blank"><img class="rs-icon" src="img/rschoolimage.png" alt="rolling school icon"></a>
         </footer>
-    </section>
+    </div>
 </body>
 
 </html>
