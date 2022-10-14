@@ -29,7 +29,7 @@ body {
 
 .header-img {
 	position: relative;
-	background-image: url('file:///C:/Users/weron/Desktop/RSSchool projects/CV.markdown/img/texture-2.jpg');
+	background-image: url('/img/texture-2.jpg');
 	height: 220px;
 	border-radius: 10px;
 	background-size: cover;
