@@ -124,7 +124,6 @@ aside section
 	line-height: 30px;
 }
 
-
 /*main section*/
 
 main {
@@ -146,7 +145,6 @@ h2 {
 	display: inline-block;
 	text-decoration: underline;
 }
-
 
 .education li {
 	list-style: none;
@@ -183,9 +181,6 @@ h2 {
 .interest-list li {
 	margin-left: 10px;
 }
-
-
-
 
 /*footer*/
 
