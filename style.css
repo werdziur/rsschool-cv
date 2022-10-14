@@ -108,13 +108,21 @@ aside {
 	background-color: #e6e6ae96;
 }
 
-aside section {
+aside section
+ {
 	padding: 10px 20px 0 20px;
 	line-height: 25px;
+	margin-left: 10px;
 }
 
+.contact p {
+	padding-bottom: 10px;
+}
 
-
+.skills li, .languague li {
+	margin-left: 10px;
+	line-height: 30px;
+}
 
 /*main section*/
 
@@ -175,6 +183,8 @@ h2 {
 }
 
 
+
+
 /*footer*/
 
 footer {
@@ -185,3 +195,25 @@ footer {
 	width: 1000px;
 	border: 10px;
 }
+
+.icon-2 {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 10px;
+	left: 10px;
+}
+.rs-icon {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 50px;
+}
+
+footer p {
+	text-align: center;
+	line-height: 70px;
+}
+
+
