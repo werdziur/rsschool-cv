@@ -1,0 +1,216 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+	position: relative;
+	background-color: #e4e4e1;
+	background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%),
+		linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.6) 100%);
+	background-blend-mode: normal, multiply;
+	margin: 100px auto;
+	width: 1000px;
+	height: 1400px;
+	-webkit-box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
+	-moz-box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
+	box-shadow: 1px 1px 24px 0px rgba(206, 207, 98, 1);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/*header image*/
+
+.header-img {
+	position: relative;
+	background-image: url(img/texture-2.jpg);
+	height: 220px;
+	border-radius: 10px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+}
+
+.header-text {
+	position: absolute;
+	bottom: 10px;
+	left: 25px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	z-index: 10;
+}
+
+.job-title {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.header-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	top: 10px;
+	right: 50px;
+	z-index: 10;
+	border: 2px solid #333;
+}
+
+/*navigation*/
+
+nav {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+	transition: color 0.3s;
+}
+
+.nav-links a:hover {
+	cursor: pointer;
+	color: rgba(255, 255, 0, 0.568);
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0 40px;
+	font-weight: bold;
+}
+
+/*aside section*/
+
+aside {
+	position: absolute;
+	right: 0;
+	height: 1060px;
+	width: 300px;
+	background-color: #e6e6ae96;
+}
+
+aside section
+ {
+	padding: 10px 20px 0 20px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+.contact p {
+	padding-bottom: 10px;
+}
+
+.skills li, .languague li {
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+/*main section*/
+
+main {
+	position: absolute;
+	left: 0;
+	height: 1060px;
+	width: 700px;
+}
+
+main section {
+	padding: 10px 20px 0 20px;
+	line-height: 25px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 0;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.education li {
+	list-style: none;
+	line-height: 25px;
+}
+
+.education span {
+	font-weight: bold;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	
+}
+
+.code-example code {
+	display: block;
+}
+
+.projects a {
+	text-decoration: none;
+	display: block;
+	color: black;
+	font-weight: bold;
+}
+
+.projects a:hover {
+	cursor: pointer;
+	color: #4d4d0c96;
+}
+
+.interest-list li {
+	margin-left: 10px;
+}
+
+/*footer*/
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 70px;
+	width: 1000px;
+	border: 10px;
+}
+
+.icon-2 {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 10px;
+	left: 10px;
+}
+.rs-icon {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 50px;
+}
+
+footer p {
+	text-align: center;
+	line-height: 70px;
+}
+
+
